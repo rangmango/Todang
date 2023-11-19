@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ex3</title>
+    </head>
+    <body>
+        <h1>깅토당</h1>
+            <input type="button" value="누르시오" onclick="
+            var target = document.querySelector('body');
+            if(this.value==='누르시오'){
+            target.style.color='red';
+            document.querySelector('h1').innerHTML = '사랑해';
+            this.value = '깅토당';
+            }
+            else {
+            target.style.color='black';
+            document.querySelector('h1').innerHTML = '깅토당'
+            this.value = '사랑해';
+            }
+            ">
+    </body>
+</html>
